@@ -1,0 +1,83 @@
+.logo {
+    background:url("../Images/gem.png");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    min-width:600px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    border: 10px;
+    margin:7% 33%;
+    width:33%;
+    border-radius:100%;
+    padding-bottom: 0px;
+    display:block;
+}
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.black {
+    background-color: black;
+}
+
+/*navbar******************************************/
+
+.row {
+    height:80px;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 20px;
+    z-index: -4;
+    padding-top:20px;
+    padding-bottom: 30px;
+    padding-left:90%;
+    position:static;
+}
+
+.small-logo {
+    background:url("../Images/gem.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    z-index: 5;
+    height:100%;
+    padding-left: 0px;
+    width:80px;
+}
+
+.artist-name {
+    font-family: 'Open Sans', sans-serif;
+    color:white;
+    font-size: 30px;
+    font-stretch: expanded;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-bottom: 30px;
+    padding-top: 2px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #e84610;
+}
