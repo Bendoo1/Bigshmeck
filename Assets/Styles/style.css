@@ -1,5 +1,5 @@
 .logo {
-    background:url("../Images/gem.png");
+    background:url("../Images/gem.jpg");
     background-color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,12 +10,13 @@
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     border: 10px;
-    margin:7% 33%;
+    margin: 7% 33%;
     width:33%;
     border-radius:100%;
     padding-bottom: 0px;
     display:block;
 }
+
 
 .background-white {
     background-color: #ffffff;
@@ -25,59 +26,473 @@
     background-color: black;
 }
 
-/*navbar******************************************/
-
-.row {
-    height:80px;
+.divider-line {
+    margin:-3%;
+    background-image:url("/Assets/Images/gem.jpg;");
+    background-size: 12px;
+    
 }
 
-.fa-bars {
-    color: white;
-    font-size: 20px;
-    z-index: -4;
-    padding-top:20px;
-    padding-bottom: 30px;
-    padding-left:90%;
-    position:static;
+.divider-small {
+    width:100%;
+    height:4rem;
+}
+
+.divider-large {
+    width: 100%;
+    height: 18rem;
+    padding-top: 10%;
+}
+
+.divider-large-grey {
+    width: 100%;
+    height: 18rem;
+    padding-top: 10%;
+    background-color:#656565; 
+}
+
+.down-button {
+    float:right;
+    
+}
+
+.sep-line-top {
+    width:100%;
+    border: 1px;
+    border-color: purple;
+    height: 3px;
+    border-width: 50px;
+    background-color: purple;
+    top:50%;
+    margin: auto 0;
+    b-webkit-box-shadow: 0px 200px 300px 200px rgba(173,81,173,1);
+    -moz-box-shadow: 0px 200px 300px 200px rgba(173,81,173,1);
+    box-shadow: 0px 350px 300px 200px rgba(173,81,173,1);
+    transition-property: box-shadow;
+}
+
+.sep-line-bottom {
+    width:100%;
+    border: 1px;
+    border-color: purple;
+    height: 3px;
+    border-width: 50px;
+    background-color: purple;
+    top:50%;
+    margin: auto 0;
+    -webkit-box-shadow: inset 3px 3px 79px -15px rgba(128,0,128,1);
+    -moz-box-shadow: inset 3px 3px 79px -15px rgba(128,0,128,1);
+    box-shadow: inset px 10px 27px -15px rgba(128,0,128,1);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*navbar******************************************/
+
+.header-height {
+    height: 80px;
+    -webkit-box-shadow: inset 3px 3px 79px -15px rgba((128,0,128,1));
+    -moz-box-shadow: inset 3px 3px 79px -15px rgba(128,0,128,1);
+    box-shadow: inset 3px 10px 27px -15px rgba(128,0,128,1);
 }
 
 .small-logo {
-    background:url("../Images/gem.png");
-    background-size:contain;
+    background-image: url(/Assets/Images/gem.jpg);
+    background-size: contain;
     background-repeat: no-repeat;
-    z-index: 5;
-    height:100%;
-    padding-left: 0px;
-    width:80px;
+    z-index: 1;
+    height: 80px;
+    margin-top: 5px;
+    margin-right:0px;
+    width: 70px;
+    position: relative;
 }
 
 .artist-name {
+    color:black;
     font-family: 'Open Sans', sans-serif;
-    color:white;
     font-size: 30px;
     font-stretch: expanded;
     letter-spacing: 2px;
     font-weight: lighter;
-    padding-bottom: 30px;
-    padding-top: 2px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    padding-left:0;
+    background-color: white;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: purple;
+    border-top-width: 3px;
+    border-top-style: solid;
+    box-shadow: 2px 2px 5px #333444;
     text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
+    transform: skewX(0deg);
+    text-transform: uppercase;
+    height:60%;
+    -webkit-box-shadow: inset 3px 3px 79px -15px rgba((128,0,128,1));
+    -moz-box-shadow: inset 3px 3px 79px -15px rgba(128,0,128,1);
+    box-shadow: inset 3px 10px 27px -15px rgba(128,0,128,1);
+    margin-left:5px;
+    margin-top:17px;
 }
 
-.social-links li a i:hover {
-    background: #e84610;
+
+
+.social-med {
+    height:50%;
+    margin-bottom:20px;
+    margin-left: 710px;
+    
 }
+
+.social-med-centre {
+    margin-left: 850px;
+    
+}
+
+
+.social-med-img {
+    display:inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    
+}
+
+.fab {
+    font-size: 20px;
+    font-weight: 100;
+    margin: 1px 0;
+    line-height: 1px;
+    color:white;
+}
+
+.fab:hover {
+    color: #faf0e6;
+}
+
+.float-right {
+    padding-left: 75%
+}
+
+.pages {
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.pages:hover {
+    color: #faf0e6;
+    
+}
+
+.mobile-button {
+    color:white;
+    visibility:hidden;
+    margin-top:10%;
+    position:fixed;
+    margin-right:-1000px;
+}
+
+
+
+/*videos******************************************/
+
+.video {
+    margin:auto;
+    display:block;
+    width:992px;
+    height:558px;
+    border-width:0px;
+}
+
+.video-text {
+    margin-left:43%;
+}
+
+/*about-me******************************************/
+
+.about-me {
+    height: 25em;
+    color: black;
+    background-color:#656565;
+    font-size: 22px;
+    -webkit-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0f0f0; 
+}
+
+.artist-name-black {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-left:0;
+    display:block;
+    background-color: white;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: purple;
+    border-top-width: 3px;
+    border-top-style: solid;
+    box-shadow: 2px 2px 5px #333444;
+    text-align: center;
+    transform: skewX(10deg);
+}
+
+.body-text-white  {
+    font-size: 20px;
+    padding-left:10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.portrait {
+    background:url("../Images/Ben.jpg");
+    background-position: center;
+    padding-bottom: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 360px;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+.tooltip {
+    text-decoration:none;
+    position:relative;
+}
+.tooltip span {
+    display:none;
+}
+.tooltip span img {
+    float:left;
+    }
+.tooltip:hover span {
+        display:block;
+        position:absolute;
+        overflow:hidden;
+}
+
+.white-shadow-above {
+    -webkit-box-shadow: 0px -200px 300px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px -200px 300px 0px rgba(255,255,255,1);
+    box-shadow: 0px -200px 300px 0px rgba(255,255,255,1);
+}
+
+
+/*Gigs/Tour******************************/
+
+.gig-section {
+    height: 30em;
+    background-color:#656565;
+    -webkit-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0f0f0;
+    border-left-width:15px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-right-width: 15px;
+    border-right-style: solid;
+    border-right-color: white;
+}
+
+.gigs {
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    padding-left: 20px;
+    height: 50px;
+    -webkit-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0);
+    -moz-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0);
+    box-shadow: inset 0px 0px 79px 0px rgba(0,0,0,0);
+}
+
+.buy-link {
+    box-shadow: 0, 0, 0, 0;
+    border: hidden;
+    transition-property: background-color;
+    transition-property: transform;
+    transition-duration: 2s;
+    color: white;
+    background-color: black;
+}
+
+.buy-link:hover {
+
+    transform: rotateY(360deg);
+    background-color: purple;
+}
+
+.gigs .buy-link {
+    color:white;
+}
+
+.buy-link-text {
+    color:white;
+}
+
+.buy-link-text:hover {
+    color:white;
+    text-decoration: none;
+}
+
+.gigs-table {
+    width:60%;
+    margin: auto 0;
+    padding-left: 20%;
+    padding-right: 20%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+
+.gigs-table  b {
+    color:white;
+}
+
+.gigs-table  li {
+    color:black;
+}
+
+b {
+    margin-top:10px;
+}
+
+
+/*media queries******************************/
+
+@media(max-width: 992px) {
+    .video {
+        height: 400px;
+    }
+    
+    .social-med-img{
+        width:20px;
+        height:40px;
+        text-align: center;
+        
+    }
+    
+    .about-me {
+        height:30em;
+    }
+}
+
+@media(max-width: 500px) {
+    
+    html {
+        width:100%;
+    }
+    
+    .video {
+        height:200px;
+        margin-top:100px;
+        width:100%;
+    }
+    
+    .about-me {
+        height: 55em;
+    }
+    
+    .gigs-table {
+        text-align: left;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 50px;
+    }
+    .divider-line {
+        margin-top:15%;
+    }
+    .video-text {
+        margin-left:-5%;
+        
+        border-top-width:0px;
+    }
+    
+    .artist-name {
+        margin-left: 0px;
+        height:40px;
+        font-size: 25px;
+        width:60%;
+        text-align: center;
+    }
+    
+    .artist-name-black  {
+        margin-left: 5px;
+    }
+    
+    .social-med {
+        background-color:black;
+        margin-top:-250px;
+        width:0px;
+        margin-left:22px;
+        margin-bottom: 150px;
+        display:inline-block;
+        z-index: 5;
+    }
+    
+    .mobile-button {
+        visibility: visible;
+        margin-top: -63px;
+        margin-left: 83%;
+        color:white;
+        height:30px;
+        width:30px;
+        font-size: 30px;
+        
+        
+        
+    }
+    
+    .mobile-button:on-click
+    .social-med {
+        margin-top:-100px;
+    }
+    
+    
+    .social-med-img {
+        display:inline-block;
+        margin-top: 1px;
+        margin-right: 20px;
+        margin-bottom: 1px;
+        height:30px;
+    }
+    
+    .pages {
+        
+    }
+    
+    .body-text-white {
+        font-size: 18px
+    }
+    
+    .social-med-centre {
+        margin-left:12%;
+        margin-top: 5%;
+    }
+    
+    
