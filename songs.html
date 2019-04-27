@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="Assets/Styles/style.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
     <title>Big Shmeck</title>
 </head>
@@ -19,21 +22,26 @@
                 <div alt="gem" class="small-logo"></div>
         </a>
         </div>
-        <div class="artist-name col-md-3 col-sm-3">Big Shmeck</div>
-            <div class="social-med col-md-4 col-sm-1 offset-md-4 offset-sm-0">
-                <div class="social-med-img"><a target="_blank" href="https://www.facebook.com/Ben.Josh.Bass"><i class="fab fa-facebook"></i></a></div>
-                <div class="social-med-img"><a target="_blank" href="https://twitter.com/imagityousucka"><i class="fab fa-twitter"></i></a></div>
-                <div class="social-med-img"><a target="_blank" href="https://www.instagram.com/bigshmeck"><i class="fab fa-instagram"></i></a></div>
-                <div class="social-med-img"><a target="_blank" href="https://www.youtube.com/channel/UCgsX0Q9xo7RHx_pt6IFsvTw"><i class="fab fa-youtube"></i></a></div>                    
-                <div class="social-med-img"><a target="_blank" href="https://soundcloud.com/bigshmeck"><i class="fab fa-soundcloud"></i></a></div>
-                    <a href="https://www.ticketmaster.co.uk/">
-                        <div class="social-med-img pages">Tour</div>
-                    </a>
-                    <a href="../songs.html">
-                        <div class="pages social-med-img">Songs</div>
-                    </a>
+        <div class="artist-name">Big Shmeck</div>
+        <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="socials">Menu</span> <i class="fas fa-volume-up"></i>
+          </a>
+        
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <div class="pages"><a class="dropdown-item" href="../songs.html">Songs</a></div>
+            <div class="dropdown-divider"></div>
+            <div class="pages-tour"><a class="dropdown-item" href="https://www.ticketmaster.com">Tour</a></div>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" style="padding-left:47%" href="https://www.facebook.com/Ben.Josh.Bass"><i class="fab fa-facebook-f"></i></a>
+            <a class="dropdown-item" href="https://twitter.com/imagityousucka"><i class="fab fa-twitter"></i></a>
+            <a class="dropdown-item" href="https://www.instagram.com/bigshmeck"><i class="fab fa-instagram"></i></a>
+            <a class="dropdown-item" href="https://open.spotify.com/artist/1iMrmQLAouLA4QFQckJmUk?si=5_NcreL3S0udBw-OlkRylA"><i class="fab fa-spotify"></i></a>
+            <a class="dropdown-item" href="https://www.youtube.com/channel/UCgsX0Q9xo7RHx_pt6IFsvTw"><i class="fab fa-youtube"></i></a>
+            <a href="https://soundcloud.com/bigshmeck" style="padding-left:44%" class="dropdown-item"><i class="fab fa-soundcloud"></i></a>
+          </div>
         </div>
-    </div>
+
 </header>
 <div class="container-fluid">
     <div class="row">
@@ -46,37 +54,37 @@
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe src="https://open.spotify.com/embed/album/7bEo9kEon9Cj5J3phqyaPq" style="margin-left: 18%; margin-top:20px"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/7bEo9kEon9Cj5J3phqyaPq" class="songs" style="margin-top:20px"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe src="https://open.spotify.com/embed/track/3UOZcorfqVmLWUF1pLQK84" style="margin-left: 18%"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/3UOZcorfqVmLWUF1pLQK84" class="songs" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe src="https://open.spotify.com/embed/track/2kV8QfdTcCyDGktALrX1wX" style="margin-left: 18%"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/2kV8QfdTcCyDGktALrX1wX" class="songs" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe src="https://open.spotify.com/embed/track/1ZBttsDQHx6oMBW8g6GB8z" style="margin-left: 18%"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/1ZBttsDQHx6oMBW8g6GB8z" class="songs" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe src="https://open.spotify.com/embed/album/3kqH7aXHGt45M39TLwhNGC" style="margin-left: 18%"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/album/3kqH7aXHGt45M39TLwhNGC" class="songs" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe src="https://open.spotify.com/embed/track/6OB4o97U9Ow6RoEvwFXdRO" style="margin-left: 18%"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe src="https://open.spotify.com/embed/track/6OB4o97U9Ow6RoEvwFXdRO" class="songs" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
     <div class="row">
         <div class="col-12">
-            <iframe class="songs" src="https://open.spotify.com/embed/track/6jB4k4w1r7ILPkjdblaY0j" style="margin-left: 18%"  height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe class="songs" src="https://open.spotify.com/embed/track/6jB4k4w1r7ILPkjdblaY0j" class="songs" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
         </div>
     </div>
 </section>
@@ -87,7 +95,7 @@
 <div class="sep-line-bottom"></div>
 
 <footer>
-    <div class="container-fluid header-height black">
+    <div class="header-height black">
 
         <div class="row">
             <div class="social-med-centre white-shadow-above">
@@ -102,5 +110,6 @@
     
     
 </footer>
+
 
 </html>

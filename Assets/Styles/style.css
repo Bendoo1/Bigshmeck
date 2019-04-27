@@ -1,22 +1,26 @@
 .logo {
-    background:url("../Images/gem.jpg");
+    background:url("../Images/gem.png");
     background-color: #ffffff;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 600px;
+    background-size: 120%;
+    height: 600px;
     min-width:600px;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     border: 10px;
-    margin: 7% 33%;
+    margin: 5px 27%;
     width:33%;
     border-radius:100%;
     padding-bottom: 0px;
     display:block;
 }
 
+.logo:active {
+    background-size: 10%;
+    transition: background-size .2s ease-in;
+}
 
 .background-white {
     background-color: #ffffff;
@@ -28,7 +32,7 @@
 
 .divider-line {
     margin:-3%;
-    background-image:url("/Assets/Images/gem.jpg;");
+    background-image:url("/Assets/Images/gem.png;");
     background-size: 12px;
     
 }
@@ -99,12 +103,11 @@ a:hover {
 }
 
 .small-logo {
-    background-image: url(/Assets/Images/gem.jpg);
-    background-size: contain;
+    background-image: url(../Images/gem.png);
+    background-size: 90%;
     background-repeat: no-repeat;
-    z-index: 1;
     height: 80px;
-    margin-top: 5px;
+    margin-top: 0px;
     margin-right:0px;
     width: 70px;
     position: relative;
@@ -146,13 +149,14 @@ a:hover {
 
 .social-med {
     height:50%;
-    margin-bottom:20px;
-    margin-left: 710px;
+    bottom:-25px;
+    margin-left: 20%;
+    width: auto;
     
 }
 
 .social-med-centre {
-    margin-left: 850px;
+    margin-left: 42%;
     
 }
 
@@ -180,26 +184,58 @@ a:hover {
     padding-left: 75%
 }
 
-.pages {
-    color:white;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-}
+.pages .dropdown-item {
+        padding-left: 35%;
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin-right:10%;
+    }
+    
+.pages-tour .dropdown-item {
+        padding-left: 40%;
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin-right:10%;
 
-.pages:hover {
-    color: #faf0e6;
+    }
+
+.dropdown-item {
+    color:black;
+    padding-left:45%;
     
 }
 
-.mobile-button {
-    color:white;
-    visibility:hidden;
-    margin-top:10%;
-    position:fixed;
-    margin-right:-1000px;
+.dropdown-item .fab {
+    color:black;
+}
+
+.dropdown-item:hover .fab {
+    color:gray;
 }
 
 
+.dropdown {
+    color: #fff;
+    border-color: black;
+    left: 50%;
+    top:20px;
+
+}
+
+.show {
+    width: 0;
+}
+
+.btn {
+    background-color: black;
+    border-color: black;
+}
+
+.dropdown-item .fa-soundcloud {
+    padding-left:-20%;
+}
 
 /*videos******************************************/
 
@@ -383,6 +419,12 @@ b {
 }
 
 
+/*songs******************************/
+
+.songs {
+    padding-left:38%;
+}
+
 /*media queries******************************/
 
 @media(max-width: 992px) {
@@ -394,6 +436,7 @@ b {
         width:20px;
         height:40px;
         text-align: center;
+        background-color: transparent;
         
     }
     
@@ -404,8 +447,9 @@ b {
 
 @media(max-width: 500px) {
     
-    html {
-        width:100%;
+    .logo {
+        background-size: 30%;
+        margin:-10% -10%;
     }
     
     .video {
@@ -446,13 +490,14 @@ b {
     }
     
     .social-med {
-        background-color:black;
-        margin-top:-250px;
+        background-color:transparent;
+        transform:translateY(-600%);
         width:0px;
         margin-left:22px;
         margin-bottom: 150px;
         display:inline-block;
         z-index: 5;
+        transition: transform .5s ease-in-out;
     }
     
     .mobile-button {
@@ -463,36 +508,103 @@ b {
         height:30px;
         width:30px;
         font-size: 30px;
-        
-        
-        
-    }
-    
-    .mobile-button:on-click
-    .social-med {
-        margin-top:-100px;
+        z-index: 5;
+        position:absolute;
     }
     
     
-    .social-med-img {
-        display:inline-block;
-        margin-top: 1px;
-        margin-right: 20px;
-        margin-bottom: 1px;
-        height:30px;
+    .socials {
+        visibility: hidden;
     }
     
-    .pages {
-        
+    div.dropdown {
+        width:28%;
+    }
+    
+    .dropdown {
+        right: -30px;
+        top: -60px;
+        left: 71%;
+    }
+    
+    .dropdown-item {
+        width: 50%;
+        padding-left: 40%;
+    }
+    
+    .dropdown-menu {
+        min-width: 0px;
+        max-width:70px;
+    }
+    
+    .btn-secondary.focus, .btn-secondary:focus {
+        box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0);
+    }
+    
+    .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    .btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0);
+    }
+    
+    .btn {
+        width:0%;
+        padding:0 0;
+        border-width:0 0;
+        background-color:transparent;
+    }
+    
+    .btn-secondary {
+        width:0%;
+        padding:0 0;
+        border-width:0 0;
+    }
+    
+    .show {
+        width:70%;
+    }
+    
+    .btn:hover {
+        background-color: black;
+        border-color: black;
+    }
+    
+    
+    .pages .dropdown-item {
+        padding-left: 20%;
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin-right:10%;
+    }
+    
+    .pages-tour .dropdown-item {
+        padding-left: 27%;
+        color:black;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        margin-right:10%;
+
     }
     
     .body-text-white {
         font-size: 18px
     }
     
+    
     .social-med-centre {
-        margin-left:12%;
-        margin-top: 5%;
+        margin-left:22%;
     }
     
+    .gig-section {
+        height: 45em;
+    }
     
+    .songs {
+        padding-left:5%;
+    }
+    
+}
