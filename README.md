@@ -1,4 +1,4 @@
-![Alt](/gem.png "Title")
+![Alt](../Images/gem.png "Title")
 
 # Welcome to the Big Shmeck Website project! #
 
@@ -13,7 +13,7 @@ The sections will be structured as follows:
 4. Final Website Design
 #
 
-##1. Initial Concept #
+## 1. Initial Concept #
 
 The initial concept I had of this website was to have a sturdy header with a built in menu which will link you to other areas of the site. When viewing in mobile this would then condense down into a drop down menu which gave the same functionality. I would then use social media icons next to the header menu to promote my other social spaces such as Soundcloud / Instagram etc...
 
@@ -32,6 +32,6 @@ I also had the initial idea of having an intro screen which showed my logo, when
 The additional page I also added was the Songs page which had embedded Spotify links from my Spotify page.
 
 
-##2. Ideas and First Attempts #
+## 2. Ideas and First Attempts #
 
 The first attempts were mostly made around the header and footer sections to make them work with links when in a full view of the screen, and to be in a 
