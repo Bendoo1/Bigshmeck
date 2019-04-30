@@ -1,18 +1,15 @@
+# Header 1 Welcome to the Big Shmeck Website project! #
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+During the course of this readme file I will be explaining the methods I have used to complete this project in a number of sections below.
 
+The sections will be structured as follows:
 
-Hi there! Welcome to Cloud9 IDE!
+# Header 3 
+1. Initial Concept
+2. Ideas and First Attempts
+3. Corrections and Mistakes
+4. Final Website Design
+#
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+# Header 2 Initial Concept#
 
-Happy coding!
-The Cloud9 IDE team

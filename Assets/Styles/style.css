@@ -10,7 +10,7 @@
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
     border: 10px;
-    margin: 5px 27%;
+    margin: 5% 5% 5% 32.5%;
     width:33%;
     border-radius:100%;
     padding-bottom: 0px;
@@ -221,6 +221,7 @@ a:hover {
     border-color: black;
     left: 50%;
     top:20px;
+    float:right;
 
 }
 
@@ -443,13 +444,24 @@ b {
     .about-me {
         height:30em;
     }
+    
+    .dropdown {
+        width:40%;
+    }
+    
 }
 
-@media(max-width: 500px) {
+@media(max-width: 800px) {
+    
+    html {
+        
+    }
     
     .logo {
         background-size: 30%;
-        margin:-10% -10%;
+        margin:5% 0% 5% -1%;
+        width:100%;
+        min-width:200px;
     }
     
     .video {
@@ -503,7 +515,7 @@ b {
     .mobile-button {
         visibility: visible;
         margin-top: -63px;
-        margin-left: 83%;
+        margin-left: 0%;
         color:white;
         height:30px;
         width:30px;
@@ -517,14 +529,12 @@ b {
         visibility: hidden;
     }
     
-    div.dropdown {
-        width:28%;
-    }
     
     .dropdown {
         right: -30px;
         top: -60px;
-        left: 71%;
+        left:70%;
+        width:40%;
     }
     
     .dropdown-item {
@@ -551,30 +561,31 @@ b {
     }
     
     .btn {
-        width:0%;
+        width:40%;
         padding:0 0;
         border-width:0 0;
         background-color:transparent;
     }
     
     .btn-secondary {
-        width:0%;
+        width:40%;
         padding:0 0;
         border-width:0 0;
+        background-color: transparent;
     }
     
     .show {
-        width:70%;
+        width: 40%;
     }
     
     .btn:hover {
-        background-color: black;
-        border-color: black;
+        background-color: transparent;
+        border-color: transparent;
     }
     
     
     .pages .dropdown-item {
-        padding-left: 20%;
+        padding-left: 15%;
         color:black;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
@@ -601,6 +612,10 @@ b {
     
     .gig-section {
         height: 45em;
+    }
+    
+    .gig-table {
+        right:700px;
     }
     
     .songs {
