@@ -1,4 +1,4 @@
-![Alt](../Images/gem.png "Title")
+![Alt](../Assets/Images/gem.png "Big Shmeck")
 
 # Welcome to the Big Shmeck Website project! #
 
