@@ -34,4 +34,20 @@ The additional page I also added was the Songs page which had embedded Spotify l
 
 ## 2. Ideas and First Attempts #
 
-The first attempts were mostly made around the header and footer sections to make them work with links when in a full view of the screen, and to be in a 
+The first attempts were mostly made around the header and footer sections to make them work with links when in a full view of the screen, and to be in a dropdown menu when viewing in mobile.
+
+~~~~html
+<header class="container-fluid black">
+    <div class="row header-height">
+    <div class="">
+        <a href="/main.html">
+                <div alt="gem" class="small-logo"></div>
+        </a>
+        </div>
+        <div class="artist-name">Big Shmeck</div>
+~~~~
+
+This is how the header started off bit this did not work as I intended to begin with and I was missing social links and the ability to move the social / page links into a dropdown for easier viewing on mobile.
+
+I will go further into how I did this later, for now I would like to focus more on the body elements such as images, videos and the Songs page.
+
