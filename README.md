@@ -49,5 +49,56 @@ The first attempts were mostly made around the header and footer sections to mak
 
 This is how the header started off bit this did not work as I intended to begin with and I was missing social links and the ability to move the social / page links into a dropdown for easier viewing on mobile.
 
-I will go further into how I did this later, for now I would like to focus more on the body elements such as images, videos and the Songs page.
+I will go further into how I did this later, for now I would like to focus more on the body elements such as images, videos and the Songs page as well as the styles that were applied to these areas also.
 
+When looking into my css file you will see that I have had to use quite specific styles in some areas. This was due to bootstrap pulling through a lot of unnecessary and unwanted styles in some areas. I would not leave these as they were and so I changed them to be more specific to my goal.
+
+~~~~html
+~~~~
+
+~~~~css
+.small-logo {
+    background-image: url(../Images/gem.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    height: 80px;
+    margin-top: 0px;
+    margin-right:0px;
+    width: 70px;
+    position: relative;
+}
+
+.artist-name {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-stretch: expanded;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    padding-left:0;
+    background-color: white;
+    border-color: black;
+    border-bottom-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: purple;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-color: purple;
+    border-top-width: 3px;
+    border-top-style: solid;
+    box-shadow: 2px 2px 5px #333444;
+    text-align: center;
+    transform: skewX(0deg);
+    text-transform: uppercase;
+    height:60%;
+    -webkit-box-shadow: inset 3px 3px 79px -15px rgba((128,0,128,1));
+    -moz-box-shadow: inset 3px 3px 79px -15px rgba(128,0,128,1);
+    box-shadow: inset 3px 10px 27px -15px rgba(128,0,128,1);
+    margin-left:5px;
+    margin-top:17px;
+}
+~~~~
+
+This corrected a lot of the problems caused by the sizing of the row / container-fluid classes.
