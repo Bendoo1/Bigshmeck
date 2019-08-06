@@ -507,6 +507,7 @@ b {
     
     .dropdown {
         margin-left:-30%;
+        width:0;
     }
     
     .logo-gig {
@@ -519,20 +520,16 @@ b {
     
     .gigs-table {
         width: 80%;
-        margin-top:60%;
+        margin-left:15%;
     }
     
     .gig-form .gigs-table {
         margin-top: -150px;
-        margin-left: 10%;
+        margin-left: 15%;
     }
 }
 
 @media(max-width: 767px) {
-    
-    html {
-        
-    }
     
     .logo {
         background-size: 30%;
@@ -686,7 +683,8 @@ b {
     
     
     .social-med-centre {
-        margin-left:22%;
+        margin-left:auto;
+        margin-right:auto;
     }
     
     .gig-section {
