@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-size: 120%;
     height: 600px;
-    min-width:600px;
+    width:600px;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -webkit-transition: all 1s ease-in-out;
@@ -17,7 +17,31 @@
     display:block;
 }
 
+.logo-gig {
+    background:url("../Images/gem.png");
+    background-color: #ffffff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    height: 30em;
+    width: 30em;
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    border: 10px;
+    margin: 0% 5% 5% 0%;
+    border-radius:100%;
+    padding-bottom: 0px;
+    display:inline-block;
+}
+
+
 .logo:active {
+    background-size: 10%;
+    transition: background-size .2s ease-in;
+}
+
+.logo-gig:active {
     background-size: 10%;
     transition: background-size .2s ease-in;
 }
@@ -44,7 +68,7 @@
 
 .divider-large {
     width: 100%;
-    height: 18rem;
+    height: 17rem;
     padding-top: 10%;
 }
 
@@ -73,6 +97,7 @@
     -moz-box-shadow: 0px 200px 300px 200px rgba(173,81,173,1);
     box-shadow: 0px 350px 300px 200px rgba(173,81,173,1);
     transition-property: box-shadow;
+    z-index: -12;
 }
 
 .sep-line-bottom {
@@ -100,6 +125,7 @@ a:hover {
     -webkit-box-shadow: inset 3px 3px 79px -15px rgba((128,0,128,1));
     -moz-box-shadow: inset 3px 3px 79px -15px rgba(128,0,128,1);
     box-shadow: inset 3px 10px 27px -15px rgba(128,0,128,1);
+    z-index: -12;
 }
 
 .small-logo {
@@ -219,7 +245,7 @@ a:hover {
 .dropdown {
     color: #fff;
     border-color: black;
-    left: 50%;
+    left: 60%;
     top:20px;
     float:right;
 
@@ -355,6 +381,33 @@ a:hover {
     border-right-color: white;
 }
 
+.gig-form {
+    height: 30em;
+    background-color:#656565;
+    -webkit-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    box-shadow: inset 10px 10px 79px -15px rgba(0,0,0,0.75);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #f0f0f0;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.form-field {
+    padding-top:300px;
+    display:inline-block;
+    top:-400px;
+    margin-top:-300px;
+}
+
+.text-field {
+    width:200px;
+    display:inline-block;
+    margin-left: 40%;
+    margin-top:-40%;
+}
+
 .gigs {
     border-bottom-width: 0px;
     border-left-width: 0px;
@@ -419,6 +472,10 @@ b {
     margin-top:10px;
 }
 
+.gig-form .gigs-table {
+    margin-top: -450px;
+    margin-left: 25%;
+}
 
 /*songs******************************/
 
@@ -428,7 +485,7 @@ b {
 
 /*media queries******************************/
 
-@media(max-width: 992px) {
+@media(max-width: 1024px) {
     .video {
         height: 400px;
     }
@@ -438,7 +495,10 @@ b {
         height:40px;
         text-align: center;
         background-color: transparent;
-        
+    }
+    
+    .social-med-centre {
+        margin-left:36%;
     }
     
     .about-me {
@@ -446,12 +506,29 @@ b {
     }
     
     .dropdown {
-        width:40%;
+        margin-left:-30%;
     }
     
+    .logo-gig {
+        background-size: 50%;
+        margin: 10% 0% 5% -1%;
+        width:10em;
+        height:10em;
+        visibility: hidden;
+    }
+    
+    .gigs-table {
+        width: 80%;
+        margin-top:60%;
+    }
+    
+    .gig-form .gigs-table {
+        margin-top: -150px;
+        margin-left: 10%;
+    }
 }
 
-@media(max-width: 800px) {
+@media(max-width: 767px) {
     
     html {
         
@@ -532,9 +609,9 @@ b {
     
     .dropdown {
         right: -30px;
-        top: -60px;
-        left:70%;
-        width:40%;
+        top: 24px;
+        left:20%;
+        width:0;
     }
     
     .dropdown-item {
@@ -545,6 +622,7 @@ b {
     .dropdown-menu {
         min-width: 0px;
         max-width:70px;
+        margin-left:20%;
     }
     
     .btn-secondary.focus, .btn-secondary:focus {
@@ -565,6 +643,7 @@ b {
         padding:0 0;
         border-width:0 0;
         background-color:transparent;
+        margin:0;
     }
     
     .btn-secondary {
@@ -575,7 +654,7 @@ b {
     }
     
     .show {
-        width: 40%;
+        width: 44%;
     }
     
     .btn:hover {
@@ -611,7 +690,7 @@ b {
     }
     
     .gig-section {
-        height: 45em;
+        height: 30em;
     }
     
     .gig-table {
@@ -622,4 +701,19 @@ b {
         padding-left:5%;
     }
     
+    .form-field {
+        margin: 0 45%;
+        padding-top: 25px;
+    }
+    .gig-form .gigs-table {
+        margin-top:-200px;
+        font-size: 20px;
+    }
+    .gig-form {
+        height:35em;
+    }
+    
+    .gigs-table ul {
+        margin-left: -50px;
+    }
 }
