@@ -12,23 +12,23 @@ This project has a desktop first approach. The website provides a clear and appr
 
 ### User Stories #
 
-*As a user I want to be able to find out more information about Big Shmeck.
-*As a user I want to be able to see the latest music releases from Big Shmeck.
-*As a user I want to be able to see upcoming tour dates and locations.
-*As a user I want to be able to easily access external links to Big Shmeck's profiles e.g. Soundcloud, Facebook etc...
+* As a user I want to be able to find out more information about Big Shmeck.
+* As a user I want to be able to see the latest music releases from Big Shmeck.
+* As a user I want to be able to see upcoming tour dates and locations.
+* As a user I want to be able to easily access external links to Big Shmeck's profiles e.g. Soundcloud, Facebook etc...
 
 ### Features #
 
 Here you can find a list of available features from the Big Shmeck website.
 
-*Listen to Big Shmeck's music
-*Access other social media profiles for Big Shmeck
-*Book a ticket to one of Big Shmeck's gigs
-*See photos of Big Shmeck
+* Listen to Big Shmeck's music
+* Access other social media profiles for Big Shmeck
+* Book a ticket to one of Big Shmeck's gigs
+* See photos of Big Shmeck
 
 ### Technologies Used #
 
-*HTML
-**Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
-*CSS
-**Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.
+-  **HTML**
+    - Hypertext Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.
+- **CSS**
+    - Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML.
