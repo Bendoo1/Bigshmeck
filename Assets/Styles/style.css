@@ -1,6 +1,9 @@
 footer {
-    position:relative;
     bottom:0;
+}
+
+li {
+    margin:15px;
 }
 
 .logo {
@@ -427,17 +430,22 @@ a:hover {
 }
 
 .buy-link {
-    box-shadow: 0, 0, 0, 0;
+    box-shadow: 0 0 0px 0px rgba(0,0,0,0.75);
     border: hidden;
     transition-property: background-color;
     transition-property: transform;
     transition-duration: 2s;
     color: white;
     background-color: black;
+    padding: 7px;
+    transform: rotateY(0deg);
+    margin-top: 15px;
 }
 
 .buy-link:hover {
-
+    transition-property: box-shadow, transform;
+    transition-duration: 1s;
+    box-shadow: 0 0 20px 9px rgba(0,0,0,0.75);
     transform: rotateY(360deg);
     background-color: purple;
 }
@@ -453,6 +461,8 @@ a:hover {
 .buy-link-text:hover {
     color:white;
     text-decoration: none;
+    transform: rotateY(360deg);
+    transition-duration: 2s;
 }
 
 .gigs-table {
@@ -462,7 +472,7 @@ a:hover {
     padding-right: 20%;
     height: 100%;
     font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .gig-table {
@@ -500,13 +510,13 @@ b {
 }
 
 .gig-form .gigs-table {
-    margin-top: -450px;
-    margin-left: 25%;
+    margin-top: -525px;
+    margin-left: 30%;
     list-style-type: none;
 }
 
 .gig-form .gig-table {
-    margin-top: 50px;
+    margin-top: 30px;
     list-style-type: none;
 }
 
