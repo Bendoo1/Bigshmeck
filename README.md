@@ -1,4 +1,4 @@
-![Big Shmeck logo](./Assets/Images/gem.png "Big Shmeck")
+<img src="./Assets/Images/gem.png" alt="Big Shmeck logo" style="width:50px;"/>
 
 # Welcome to the Big Shmeck Website project! #
 
