@@ -1,4 +1,4 @@
-![Big Shmeck logo](../Assets/Images/gem.png "Big Shmeck")
+![Big Shmeck logo](./Assets/Images/gem.png "Big Shmeck")
 
 # Welcome to the Big Shmeck Website project! #
 
